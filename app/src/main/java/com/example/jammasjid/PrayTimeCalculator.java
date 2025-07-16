@@ -21,7 +21,7 @@ public class PrayTimeCalculator {
     }
 
     public List<String> getPrayerTimes(Calendar date, double latitude, double longitude, double timezone) {
-        // Simulasi waktu sholat (dummy), harus diganti dengan perhitungan sebenarnya
+        // Simulasi waktu sholat (dummy), harus diganti dengan perhitungan sebenarnya lur
         List<String> times = new ArrayList<>();
         times.add("04:30"); // Fajr
         times.add("05:45"); // Sunrise

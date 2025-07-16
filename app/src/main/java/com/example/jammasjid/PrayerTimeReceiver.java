@@ -12,6 +12,7 @@ public class PrayerTimeReceiver extends BroadcastReceiver {
         String prayer = intent.getStringExtra("prayer");
         String type = intent.getStringExtra("type");
 
+
         String message = (type.equals("adzan")) ? "Waktu " + prayer + " telah tiba (Adzan)" :
                 "Segera Iqamah untuk " + prayer;
 

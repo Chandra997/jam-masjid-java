@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.BroadcastReceiver;
 import android.widget.Toast;
 
-
 public class PrayerTimeReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
